@@ -1,0 +1,17 @@
+.body {
+    background: burlywood;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: cornflowerblue;
+}
+
+.carouselHome{
+    height: 500px;
+    width: 1350px;
+    
+}
+.CardBody{
+    color: cadetblue;
+}

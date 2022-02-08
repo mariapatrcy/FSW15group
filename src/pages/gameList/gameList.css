@@ -1,0 +1,85 @@
+
+
+.main-gamelist {
+  /* max-width: 100%; */
+  margin-bottom: 5.1rem;
+  /* font-size: 1.3rem; */
+}
+
+.bg {
+  background: url('../background-web.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* slick-track {
+    display: flex !important;
+  }
+  
+  .slick-slide {
+    height: 100px;
+  } */
+
+  .card.cardOne{
+    width: 94%;
+  }
+
+  .card-body{
+    background: mediumvioletred;
+    padding: 1.15rem !important;
+  }
+
+  .slick-prev{
+    left:-47px !important;
+  }
+  .slick-next{
+    right:-40px !important;
+  }
+
+  .slick-prev:before,
+.slick-next:before
+{
+    
+    font-size: 32px !important;
+   
+}
+
+@media (max-width:641px)  { 
+  .slick-prev{
+    left:-25px !important;
+  }
+  .slick-next{
+    right:-25px !important;
+  }
+
+  .slick-prev:before,
+.slick-next:before
+{
+    
+    font-size: 20px !important;
+   
+}
+
+}
+
+@media (min-width: 768px){
+.navbar-expand-md .navbar-collapse {
+    /* display: flex!important;
+    flex-basis: auto; */
+    justify-content: flex-end;
+    
+}
+
+}
+
+@media only screen and (max-width: 770px) {
+  .nav {
+    margin-top: 7px;
+  }
+  .main-gamelist {
+    max-width: unset;
+  }
+}

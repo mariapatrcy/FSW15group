@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #9C835F;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+.win{
+    position: absolute;
+    width: 271.11px;
+    height: 166.93px;
+    background-color: #4C9654;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    left: 561px;
+    top: 250px;
+    text-align: center;
+    margin: auto;
+}
+.draw{
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 271.11px;
+    height: 166.93px;
+    background-color: #035B0C;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    left: 561px;
+    top: 250px;
+}
+
+/* ----- top ---- */
+
+.top{
+    top: 0;
+    left: 0;
+    width: 1300px;
+    padding: 6px 14px;
+   
+}
+.top .atascontent{
+    display: flex;
+    
+}
+.top .atascontent a{
+    font-size: 40px;
+   margin-bottom: 1.3%;
+}
+
+.top .atascontent .gameslogo{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.top .atascontent .gameslogo img{
+    height: 50px;
+    width: 50px;
+   
+}
+.top .atascontent .gamesname{
+   font-family: 'Open Sans', sans-serif;
+   display: flex;
+   color: #F9B23D;
+   font-size: 27px;
+   margin-left: 4%;
+   
+}
+.top .gamesname span{
+    margin: auto;
+}
+
+/* ----- middle ---- */
+
+
+.contentgames{
+    display: flex;
+    justify-content: center;
+}
+.contentgames .container{
+    display: grid; grid-template-columns: 250px 450px 250px; grid-gap: 10px;
+    text-align: center;
+}
+
+.contentgames .container .namaplayer{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    font-size: 25px;
+    letter-spacing: 0.152em;
+}
+
+.contentgames .container .games1{
+    display: grid; grid-template-rows: 50px 150px 150px 150px; grid-gap: 5px;
+    margin: auto;
+}
+
+.contentgames .container .games2{
+    display: grid; grid-template-rows: 50px 150px 150px 150px; grid-gap: 5px;
+    margin: auto;
+}
+.contentgames .container .middle{
+    display: grid;
+    text-align: center;
+    grid-template-rows: 80px 400px; grid-gap: 5px;
+    
+}
+
+.contentgames img{
+    height: 120px;
+    width: 80px;
+}
+
+.contentgames .container .middle .score{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    
+}
+.contentgames .container .VS{
+    display: flex;
+    color: #BD0000;
+    font-size: 130px;
+    font-family: 'Open Sans', sans-serif;
+    
+    margin: auto;
+    text-align: center;
+}
+
+/* ---- gunting, kertas, batu ---- */
+
+#batu{
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+}
+#batuCom{
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+}
+#kertas{
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+}
+#kertasCom{
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+}
+#gunting{
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+}
+#guntingCom{
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+}
+
+/* --- bottom ---  */
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.bottom img{
+    height: 50px;
+    width: 50px;
+}

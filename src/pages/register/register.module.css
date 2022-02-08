@@ -1,0 +1,80 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: url(../background-web.jpg) no-repeat center / cover;
+}
+
+.registerCard {
+  background:rgba(0,0,0,0.5);
+  width: 22rem;
+  margin-left: 550px;
+  margin-top: 100px;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.registerTitle {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.formGroup {
+  padding-bottom: 10px;
+}
+
+.formInput {
+  height: 55px;
+  width: 367px;
+  margin-top: 5px;
+}
+
+.registerButton {
+  width: 315px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.signinRegister {
+  color: white;
+  padding-left: 70px;
+  margin-top: 15px;
+}
+
+.textLinkFooter {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.border {
+  border: 0.873968px solid white;
+  width: 315px; 
+  height: 0;
+  opacity: 0.5;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.registerButtonGoogle {
+  background: red;
+  width: 315px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.copyrightRegister {
+  color: grey;
+  font-size: 13px;
+  margin-top: 10px;
+  padding-left: 115px;
+}

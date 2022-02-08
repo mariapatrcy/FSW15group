@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.h1{
+    color: red;
+}
+
+.jumbotron{
+    background-image: url(./img/screen-4.jpg);
+    background-size: cover;
+    height: 660px;
+    width: 98vw;
+    justify-content: center;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.jumbotron .divjumbotron{
+    position: relative; top: 250px;
+}
+
+.jumbotron .button{
+    padding: 6px 1px;
+    
+}
+
+.jumbotron .h1{
+    color: white;
+}
+
+.jumbotron .p{
+    color: white;
+}
+
+/* footer */
+.footer{
+    display: grid; grid-template-columns: 725px 600px; grid-template-rows: 500px 500px;
+    justify-content: center;
+    
+}
+
+.footer .div1{
+  
+    max-width: 850px;
+    max-height: 400px;
+}
+.footer .leaderboard{
+    
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.cardbodykanan{
+    display: flex;
+    flex-direction: column;
+}
+.cardbodykiri{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardbodykanan .kotak{
+    margin: 1px;
+    display: grid;
+    grid-template-columns: 110px 90px 150px 123px;
+    align-items: center;
+    background-color: rgb(245, 83, 145);
+}
+.cardbodykanan .kotakatas{
+    margin: 1px;
+    display: grid;
+    grid-template-columns: 110px 90px 150px 123px;
+    grid-row: 50px;
+    align-items: center;
+}
+
+.cardbodykanan .kotakatas .p{
+    
+    text-align: center;
+}
+.cardbodykanan .kotakatas .pfoto{
+    text-align: center;
+    color: white;
+}
+.cardbodykanan .kotak .p{
+    text-align: center;
+    font-size: 20px;
+}
+.cardbodykiri .kotakrating{
+    display: flex;
+    align-items: center;
+}
+
+.iconperingkat1{
+    color: rgb(219, 219, 68);
+    text-align: center;
+}
+.iconperson{
+    text-align: center;
+    align-items: center;
+}
+.iconperingkat2{
+    color: rgb(233, 207, 207);
+    text-align: center;
+}
+
+.iconperingkat3{
+    color: rgb(240, 151, 87);
+    text-align: center;
+}
+.iconperingkat4{
+    text-align: center;
+}
+.iconstar{
+    margin-bottom: 10px;
+}
+.kotak .span{
+    font-size: 20px;
+}
+.cardbodykiri .p{
+    font-size: 27px;
+}
+
